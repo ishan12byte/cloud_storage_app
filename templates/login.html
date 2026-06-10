@@ -1,36 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudDrive Login</title>
 
     <style>
 
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,sans-serif;
+        }
+
         body{
-            font-family:Arial;
+            min-height:100vh;
+            background:#f1f3f4;
             display:flex;
             justify-content:center;
             align-items:center;
-            height:100vh;
-            background:linear-gradient(
-                135deg,
-                #667eea,
-                #764ba2
-            );
+            padding:20px;
         }
 
         .card{
             background:white;
-            padding:40px;
+            width:100%;
+            max-width:420px;
+            padding:50px 40px;
             border-radius:20px;
             text-align:center;
+            box-shadow:0 4px 20px rgba(0,0,0,0.1);
         }
 
-        a{
+        .logo{
+            font-size:48px;
+            margin-bottom:15px;
+        }
+
+        h1{
+            color:#202124;
+            margin-bottom:10px;
+            font-size:32px;
+        }
+
+        .subtitle{
+            color:#5f6368;
+            margin-bottom:40px;
+            line-height:1.5;
+        }
+
+        .login-btn{
+            display:inline-flex;
+            align-items:center;
+            justify-content:center;
+            gap:12px;
             text-decoration:none;
-            background:#4285F4;
-            color:white;
-            padding:15px 25px;
+            background:white;
+            color:#3c4043;
+            border:1px solid #dadce0;
+            padding:14px 24px;
             border-radius:10px;
+            font-size:16px;
+            font-weight:500;
+            transition:0.3s;
+        }
+
+        .login-btn:hover{
+            background:#f8f9fa;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .google-icon{
+            font-size:20px;
+        }
+
+        .footer{
+            margin-top:35px;
+            color:#80868b;
+            font-size:14px;
         }
 
     </style>
@@ -39,17 +87,34 @@
 
 <body>
 
-<div class="card">
+    <div class="card">
 
-    <h1>Cloud File Storage</h1>
+        <div class="logo">
+            ☁️
+        </div>
 
-    <br>
+        <h1>CloudDrive</h1>
 
-    <a href="/login">
-        Login with Google
-    </a>
+        <p class="subtitle">
+            Secure Cloud Storage powered by AWS S3.
+            Sign in using your Google account to continue.
+        </p>
 
-</div>
+        <a href="/login" class="login-btn">
+
+            <span class="google-icon">
+                🔵
+            </span>
+
+            Login with Google
+
+        </a>
+
+        <div class="footer">
+            Secure authentication using Google OAuth
+        </div>
+
+    </div>
 
 </body>
 </html>
