@@ -265,21 +265,26 @@ http://127.0.0.1:5000
 
 ## Login Page
 
-<img width="1337" height="767" alt="image" src="https://github.com/user-attachments/assets/35a15423-ae57-4b39-8fea-a5a405b834db" />
+<img width="1919" height="869" alt="Screenshot 2026-06-10 164355" src="https://github.com/user-attachments/assets/a48979a8-d16c-47e1-b05d-b249ac936313" />
+
+
 
 
 ---
 
 ## Dashboard
 
-<img width="1091" height="827" alt="image" src="https://github.com/user-attachments/assets/d74c6f74-d696-45bf-9025-7aa88de5dad9" />
+<img width="1895" height="870" alt="Screenshot 2026-06-10 164424" src="https://github.com/user-attachments/assets/90ef51bf-b71f-4f32-9df8-28d1428a1318" />
+
+
 
 
 ---
 
 ## Upload File
 
-<img width="975" height="810" alt="image" src="https://github.com/user-attachments/assets/f21cbf4c-c1dc-4ea6-a78d-05191a512453" />
+<img width="1896" height="871" alt="Screenshot 2026-06-10 164755" src="https://github.com/user-attachments/assets/e62b7765-0704-422c-a590-1e9b8a739d4d" />
+
 
 
 
@@ -288,7 +293,7 @@ http://127.0.0.1:5000
 
 # Link Generated
 
-<img width="717" height="205" alt="image" src="https://github.com/user-attachments/assets/7aa8a4de-facc-47f7-80c5-8b1965802035" />
+<img width="1919" height="867" alt="Screenshot 2026-06-10 164910" src="https://github.com/user-attachments/assets/8886b82c-bf98-44dc-b7dd-24d05c398dca" />
 
 
 # Learning Outcomes
